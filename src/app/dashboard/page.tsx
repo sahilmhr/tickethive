@@ -4,6 +4,7 @@ import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, Dropdown
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
+import Image from "next/image"
 
 export default function Component() {
   return (
@@ -67,7 +68,7 @@ export default function Component() {
                 size="icon"
                 variant="ghost"
               >
-                <img
+                <Image
                   alt="Avatar"
                   className="rounded-full"
                   height="32"

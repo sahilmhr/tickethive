@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function TrendingEvents() {
   return (
@@ -18,7 +19,7 @@ export default function TrendingEvents() {
             <Link className="absolute inset-0 z-10" href="#">
               <span className="sr-only">View Event</span>
             </Link>
-            <img
+            <Image
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"
@@ -58,7 +59,7 @@ export default function TrendingEvents() {
             <Link className="absolute inset-0 z-10" href="#">
               <span className="sr-only">View Event</span>
             </Link>
-            <img
+            <Image
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"
@@ -98,7 +99,7 @@ export default function TrendingEvents() {
             <Link className="absolute inset-0 z-10" href="#">
               <span className="sr-only">View Event</span>
             </Link>
-            <img
+            <Image
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"

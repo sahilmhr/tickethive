@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button"
 import { TooltipTrigger, TooltipContent, Tooltip, TooltipProvider } from "@/components/ui/tooltip"
+import Image from "next/image"
 
 export default function Component() {
   return (
@@ -160,7 +161,7 @@ export default function Component() {
         <div className="mt-6 space-y-8">
           <div className="flex items-start">
             <div className="flex-shrink-0 relative">
-              <img
+              <Image
                 alt="Event Image"
                 className="rounded-lg object-cover"
                 height="200"
