@@ -23,7 +23,7 @@ export default function TrendingEvents() {
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               style={{
                 aspectRatio: "300/200",
                 objectFit: "cover",
@@ -63,7 +63,7 @@ export default function TrendingEvents() {
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               style={{
                 aspectRatio: "300/200",
                 objectFit: "cover",
@@ -103,7 +103,7 @@ export default function TrendingEvents() {
               alt="Event Image"
               className="h-56 w-full object-cover transition-all duration-300 group-hover:scale-105"
               height="200"
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1534205959792-cccfa9f7f26e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               style={{
                 aspectRatio: "300/200",
                 objectFit: "cover",

@@ -27,7 +27,7 @@ export default async function Navbar() {
             </NavigationMenuList>
         </NavigationMenu>
         <div className="flex items-center gap-2">
-            {session?.user ? <span>Dashboard</span> : <SignInButton/>}    
+            {session?.user ? <Link href="/api/auth/signout">Signout</Link> : <SignInButton/>}    
         </div>
     </nav>
   )

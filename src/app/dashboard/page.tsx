@@ -5,6 +5,7 @@ import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
 import Image from "next/image"
+import { AvatarIcon } from "@radix-ui/react-icons"
 
 export default function Component() {
   return (
@@ -46,7 +47,7 @@ export default function Component() {
                 variant="outline"
               >
                 <CalendarPlusIcon className="h-4 w-4" />
-                Create Event
+                <Link href="/create-event">Create Event</Link>
               </Button>
             </nav>
           </div>
@@ -64,21 +65,11 @@ export default function Component() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
-                className="rounded-full border border-gray-200 w-8 h-8 dark:border-gray-800"
+                className="p-0 rounded-full border border-gray-200 w-8 h-8 dark:border-gray-800"
                 size="icon"
                 variant="ghost"
               >
-                <Image
-                  alt="Avatar"
-                  className="rounded-full"
-                  height="32"
-                  src="/placeholder.svg"
-                  style={{
-                    aspectRatio: "32/32",
-                    objectFit: "cover",
-                  }}
-                  width="32"
-                />
+                <AvatarIcon className="h-8 w-8"/>
                 <span className="sr-only">Toggle user menu</span>
               </Button>
             </DropdownMenuTrigger>
